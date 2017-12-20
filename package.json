@@ -1,0 +1,24 @@
+{
+  "name": "pugi-fe",
+  "version": "1.0.0",
+  "description": "Pugi Front End Bundle",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bulma": "^0.6.1",
+    "config": "^1.28.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pugi-wallet/pugi-fe"
+  },
+  "keywords": [
+    "node",
+    "crypto"
+  ],
+  "author": "Chris Zioutas",
+  "contributors": [],
+  "license": "GNU GENERAL PUBLIC LICENSE"
+}
