@@ -113,37 +113,6 @@
         </div>
     </section>
 
-    <section class="hero is-white">
-        <div class="hero-body">
-            <div class="container">
-                <div class="columns is-centered">
-                    <div class="section column is-6">
-                        <nav class="level is-mobile">
-                            <div class="level-item has-text-centered">
-                                <div>
-                                    <img class="image is-48x48" alt="ethereum" data-type="image" src="public/images/eth.png">
-                                </div>
-                            </div>
-                            <div class="level-item has-text-centered">
-                                <div>
-                                    <img class="image is-48x48" alt="bitcoin" data-type="image" src="public/images/btc.png">
-
-                                </div>
-                            </div>
-                            <div class="level-item has-text-centered">
-                                <div>
-                                    <img class="image is-48x48" alt="litecoin" data-type="image" src="public/images/ltc.png">
-                                </div>
-                            </div>
-                        </nav>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-    </section>
-
     <div class="Site-content">
         <div id="newsletter" class="hero is-white">
             <div class="hero-body">
@@ -151,8 +120,8 @@
                     <div class="columns">
 
                         <div class="column">
-                            <h2 class="title is-4 has-text-centered">
-                                Keep your coins safe! 🔒
+                            <h2 class="title is-3 has-text-centered">
+                               No fees <i>cold</i> Desktop Wallet! 🔒
                             </h2>
                             <p class="">
                                 Storing your Coins on your desktop is an important step that needs to be taken to ensure the safety of your
@@ -169,7 +138,7 @@
                             </p>
                         </div>
                         <div class="column">
-                            <h2 class="title is-4 has-text-centered">
+                            <h2 class="title is-3 has-text-centered">
                                 Connect your online wallet. 👛
                             </h2>
                             <p class="">
@@ -187,8 +156,8 @@
                             </p>
                         </div>
                         <div class="column">
-                            <h2 class="title is-4 has-text-centered">
-                                Online backup! 🔑
+                            <h2 class="title is-3 has-text-centered">
+                                Free Online Wallet backup! 🔑
                             </h2>
                             <p class="">
                                 Even desktop wallets are not 100% secure.
@@ -206,6 +175,56 @@
         </div>
     </div>
 
+    <section class="hero is-white">
+            <div class="hero-body">
+                <div class="container">
+                    <div class="columns is-centered">
+                        <div class="section column is-6">
+                            <nav class="level is-mobile">
+                                <div class="level-item has-text-centered">
+                                    <div>
+                                        <img class="image is-48x48" alt="ethereum" data-type="image" src="public/images/eth.png">
+                                    </div>
+                                </div>
+                                <div class="level-item has-text-centered">
+                                    <div>
+                                        <img class="image is-48x48" alt="bitcoin" data-type="image" src="public/images/btc.png">
+    
+                                    </div>
+                                </div>
+                                <div class="level-item has-text-centered">
+                                    <div>
+                                        <img class="image is-48x48" alt="litecoin" data-type="image" src="public/images/ltc.png">
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="hero is-white">
+                <div class="hero-body" style="padding-top:0px;">
+                    <div class="container">
+                        <div class="columns is-centered">
+                            <div class="column is-12">
+                                <nav class="level is-mobile">
+                                    <div class="has-text-centered is-centered" style="margin-left:auto; margin-right:auto; ">
+                                        <div>
+                                            <div class="img" style="background-image:url('public/images/coinbase.png');"></div>
+                                            <div class="img" style="background-image:url('public/images/gdax.png');"></div>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+        
+                        </div>
+                    </div>
+                </div>
+            </section>
+
     <div id="newsletter" class="hero is-danger bd-rainbow">
         <div class="hero-body">
             <div class="container">
@@ -214,7 +233,6 @@
                         <p class="title">Enter the early adopters list! 🚀
                         </p>
                         <p class="subtitle is-hidden-mobile">
-                            <br>
                             <span>We hate spam too, so no worries!</span>
                         </p>
                     </div>
@@ -287,6 +305,35 @@
     <script src="public/js/external.js"></script>
     <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a3ad79ca4a7981a"></script>
     <script type="text/javascript" src="//js.growsurf.com/v1"></script>
+
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+    window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#000"
+        },
+        "button": {
+          "background": "#f1d600"
+        }
+      },
+      "theme": "edgeless",
+      "position": "top"
+    })});
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111501334-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-111501334-1');
+    </script>
+
 
 </body>
 
